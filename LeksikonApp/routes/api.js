@@ -3,7 +3,7 @@ const router = express.Router();
 
 /* GET api listing. */
 router.get('/', (req, res) => {
-  res.send('Jovan SOM!');
+  res.send('api works');
 });
 
 module.exports = router;
