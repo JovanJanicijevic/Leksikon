@@ -4,10 +4,12 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { routing } from './app.routes';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent,PageNotFoundComponent
+    AppComponent,PageNotFoundComponent, LoginComponent, HomeComponent
   ],
   imports: [
     BrowserModule, RouterModule.forRoot([]),routing
